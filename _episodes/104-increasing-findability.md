@@ -23,18 +23,19 @@ keypoints:
 We have already explored the concept of file naming conventions. Here we will focus on additional things we can do to increase file findability. 
 
 ## Multiple file copies
-One way to increase findability is to make copies of files used in separate contexts and store these in process specific locations. For each context a new copy of a file is made and stored separately. The risks with such a procedure should be obvious to everyone. The same problelm also applies to collaborations lacking common storage and working spaces. Files may be distributed among project participants using portable devices (Flash drives, hard drives, etc.), creating a situation where multiple copies exist in parallel.
+One way to increase findability is to make copies of files used in separate contexts and store these in process specific locations. For each context a new copy of a file is made and stored separately. The risks with such a procedure should be obvious to everyone. The same problem also applies to collaborations lacking common storage and working spaces. Files may be distributed among project participants using portable devices (Flash drives, hard drives, etc.), creating a situation where multiple copies exist in parallel.
 
 Pros: Someone is guaranteed to have the latest version of a file
+
 Cons: Who has the latest version of a file?
 
-A system dependant on tracking the use of multiple file copies are strongly adviced against! 
+A system dependent on tracking the use of multiple file copies are strongly adviced against! 
 
 ## What is a meta tag?
-A meta tag is a an information snippet attached to a digital file in order to help organizing and find relevant assets within a group of objects. There are three main types of meta tags:
+A meta tag is an information snippet attached to a digital file in order to help organizing and find relevant assets within a group of objects. There are three main types of meta tags:
 
-- Descriptive (describes the asset using keywords, author, file content, etc.)
-- Structural (Provides information about how the asset is organized , i.e. if it is part of one or more collections)
+- Descriptive (Describes the asset using keywords, author, file content, etc.)
+- Structural (Provides information about how the asset is organized, i.e. if it is part of one or more collections)
 - Administrative (File type or date of creation)
 
 All files today are automatically created with administrative meta tags. Most files are also pre-prepared with one or more empty text fields for additional tags. By using a combination of different tags we can virtually cluster data and information and make it searchable without having to re-organize the actual files and folders. 
@@ -73,14 +74,20 @@ An alternative to moving files between folders is to create smart folders (aka s
 A research project often require files to be stored in specific folders, reflecting a certain level of data organization. Ideally a file is only used in the folder where it is stored, but there may be several occasions when a single file is used in two contexts at once. As keeping multiple copies of the same file is advices against, two methods can be applied to circumvent the problem:
 
 - Create shortcuts
-Rather than moving the file we create a shortcut, or link, from the folder to a file in a target directory.
-Pros: Shortcut appear as a file in the folder system. Intuitive
-Cons: In case the original file is moved the link can break
+
+  Rather than moving the file we create a shortcut, or link, from the folder to a file in a target directory.
+
+  Pros: Shortcut appear as a file in the folder system. Intuitive.
+
+  Cons: In case the original file is moved the link can break
 
 - Create a smart folder
-In cases a project, or sub-project, share files we can create smart folders in the target directories linking to a single file location.
-Pros: No need to update shortcuts or target file locations
-Cons: Requires proper file tagging 
+
+  In cases a project, or sub-project, share files we can create smart folders in the target directories linking to a single file location.
+
+  Pros: No need to update shortcuts or target file locations
+
+  Cons: Requires proper file tagging 
 
 ## Exercise - File Organization
 

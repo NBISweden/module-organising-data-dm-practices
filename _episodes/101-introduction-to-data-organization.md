@@ -60,14 +60,14 @@ Generation, processing and analysis of data inevitably result in a number of edi
 
 Preparing your project for receiving data should be a core aim in your research management. 
 
-Sometimes a project will increase in size and scope, sub-projects will form, and data production will expand as new data are required and generated. When this happens, it may require changes and adaptations to already existant file structures. A file structure should be treated as a living document, continuously adapting to changes. A file structure is not decided once, and then remaining in a static state throughout the data life cycle.  
+Sometimes a project will increase in size and scope, sub-projects will form, and data production will expand as new data are required and generated. When this happens, it may require changes and adaptations to already existing file structures. A file structure should be treated as a living document, continuously adapting to changes. A file structure is not decided once, and then remaining in a static state throughout the data life cycle.  
 
 
-## The thid-person view
+## The third-person view
 
 When settling for a data and file structure we need to take into account more than our own personal preferences. The ultimate goal for research data is making it useful for the scientific society of today and tomorrow. Data can, and will, be important to more researchers than ourselves, and should therefore be prepared and treated in such a way that it can be read and interpreted by others. This may come in conflict with our everyday use of the data. The data and file structure we find most convenient for ourselves, here, today, may not be the most convenient structure for our future selves, or other researchers in general.
 
-Maintaining a file system adaptable to our own changing research requirements, while also being understandable for other researchers tomorrow, can be a challenging task. We need to consider the present as well as tomorrow, and own view as well as others.
+Maintaining a file system adaptable to our own changing research requirements, while also being understandable for other researchers tomorrow, can be a challenging task. We need to consider the present as well as tomorrow, and our own view as well as others.
 
 
 ### Preserving data timelines
@@ -75,9 +75,11 @@ Maintaining a file system adaptable to our own changing research requirements, w
 As data is created and used in different analyses, it tends to split in different versions. Reasons may include modifying the contents of files, adding and/or substracting data, or creating versions for trying different kinds of analyses or analysis setups. Versions tend to accumulate over time, and without an explicit strategy may eventually make file structure overview difficult or even impossible. We can take measures to decrease such disorder:
 
 - A coherent file naming strategy. 
+
     By avoiding non-hierachical file names (file.txt, file_new.txt, file_newer.txt, file_try.txt, file_add.txt etc.) we can circumvent having to re-interpret file chronology in the future. This is of particular importance when we publish data. There should never be confusion over which file was the published version. One way to prevent this is to adapt versioning of files.
 
-- File versioning
+- File versioning.
+
     An easy-to-track and widely used way to document file history is to do file versioning (file_1.0.txt, file_1.1.txt, file.2.0.txt, etc.), where each new version of the file receives a new version number. Coupled with a separate document, or registration system, where each version is explained, anyone will be able to track changes through time.
 
 
