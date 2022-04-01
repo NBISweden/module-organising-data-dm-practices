@@ -16,5 +16,5 @@ title: Setup
 
 > ## Presentation
 >
-> Slides for this module are available [here](data/module-organising-data-dm-practice-oct-2021.pdf)
+> Slides for this module are available [here](data/module-organising-data-dm-practice-apr-2022.pdf)
 {: .prereq}

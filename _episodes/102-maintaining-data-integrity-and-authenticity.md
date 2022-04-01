@@ -15,6 +15,7 @@ keypoints:
 - Data integrity and authenticity is dependent on knowing what the data files contain, and who does what to what file. This requires both a findable, interpretable, and accessible file structure, an explicit file naming concept, knowledge of whom has access to what data, and documentation of data treatment procedures. 
 
 ---
+{% include base_path.html %}
 
 [multiple-tables]: ../fig/102-maintaining/2_Multiple_Tables.png
 [conditional-formatting]: ../fig/102-maintaining/4_conditional-formatting.png
@@ -99,7 +100,7 @@ Consider always saving binary data in alternative formats for long term storage 
 
 > ### Learn more!
 >
-> - [Extended information and exercises on tabular data](../_episodes/105-tabular-data.md)
+> - [Extended information and exercises on tabular data]({{relative_root_path}}{% link _episodes/105-tabular-data.md %})
 {: .discussion}
 
 ## File organisation
