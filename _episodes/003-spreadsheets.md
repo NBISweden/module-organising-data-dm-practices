@@ -16,14 +16,14 @@ keypoints:
 
 ---
 
-[spreadsheet-setup-updated]: ../fig/tabular-data/spreadsheet-setup-updated.png
-[multiple-info]: ../fig/tabular-data/multiple-info.png
-[single-info]: ../fig/tabular-data/single-info.png
-[2_Multiple_Tables]: ../fig/tabular-data/2_Multiple_Tables.png
-[3_white_table_1]: ../fig/tabular-data/3_white_table_1.jpg
-[formatting]: ../fig/tabular-data/formatting.png
-[good_formatting]: ../fig/tabular-data/good_formatting.png
-[5_excel_dates_1]: ../fig/tabular-data/5_excel_dates_1.jpg
+[spreadsheet-setup-updated]: ../fig/105-tabular-data/spreadsheet-setup-updated.png
+[multiple-info]: ../fig/105-tabular-data/multiple-info.png
+[single-info]: ../fig/105-tabular-data/single-info.png
+[2_Multiple_Tables]: ../fig/105-tabular-data/2_Multiple_Tables.png
+[3_white_table_1]: ../fig/105-tabular-data/3_white_table_1.jpg
+[formatting]: ../fig/105-tabular-data/formatting.png
+[good_formatting]: ../fig/105-tabular-data/good_formatting.png
+[5_excel_dates_1]: ../fig/105-tabular-data/5_excel_dates_1.jpg
 
 > ## About this episode 
 > We tend to organize data in spreadsheets as we humans want to work with the data, but computers and humans see it in different ways. In order to use tools that make computation more efficient, we need to structure our data the way that computers need it. This episode will cover:
@@ -248,7 +248,7 @@ If possible, stick to the international ISO standard date format - YYYY-MM-DD, e
 >> 1. The diagrams are only visualisations of some of the data. They can be easily reproduced elsewhere and may mask other information. Can they be removed from the spreadsheet?
 >> 1. It seems the attendee data is entered in a non-compatible way across the different tabs. Is there a risk of information loss, or can you merge data using a smallest common denominator approach?
 >> 1. Would you store documentation of changes within or outside of the spreadsheet? Why and how?
->> 1. A suggestion on how the data can be cleaned and organised [can be downloaded here](.../data/training_attendance_end.xlsx) 
+>> 1. A suggestion on how the data can be cleaned and organised [can be downloaded here](../data/training_attendance_end.xlsx) 
 > {: .solution}
 {: .challenge}
 
