@@ -4,7 +4,7 @@ title: Setup
 ---
 
 > ## Data
-> You will be instructed to download data during the exercises but may also choose to [download it from here](./data/Example_project_begin.zip).
+> You will be instructed to download data during the exercises but may also choose to [download it from here](./data/Famous_project_No-1!.zip).
 >
 {: .prereq}
 
@@ -16,5 +16,5 @@ title: Setup
 
 > ## Presentation
 >
-> Slides for this module are available [here](data/module-organising-data-dm-practice-oct-2021.pdf)
+> Slides for this module are available [here](./module-organising-data-dm-practice-oct-2022.pdf)
 {: .prereq}
