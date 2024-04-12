@@ -30,7 +30,7 @@ keypoints:
 
 
 ## Starting up Your Research
-Congratulations researcher! You have been recruited to the lab of Famous Scientist, an authority in the field with many benchmark publications in the CV. It is truly an honor to work here, and you outcompeted quite a few applicants to earn the position. It will be a major addition to your CV, and will likely increase your chances to receive funding for your own projects in the future.
+Congratulations researcher! You have been recruited to the lab of Terribly (aka Terry) Famous, an authority in the field with many benchmark publications in the CV. It is truly an honor to work here, and you outcompeted quite a few applicants to earn the position. It will be a major addition to your CV, and will likely increase your chances to receive funding for your own projects in the future.
  
 The road to success is open!
 
@@ -38,7 +38,7 @@ On your first day of work Famous lets you know that you will continue, and build
 
 She also left behind a USB-stick containing all known files and folders in a zip-file.
 
-![Lab notes by Emma][notes]
+![Lab notes by Wang][notes]
 
 Puzzled by the note you ask Famous about additional information. The reply is that all researchers in the Famous lab work independently and are responsible for their own data and lab notes. If the information is not in the notes, the publication, or the zipped folder, it does not exist.
 
@@ -80,7 +80,7 @@ We will come back to the work at the Famous lab later. What we need to ask ourse
 
 Good scientific practise depends on keeping and maintaining good records. Good records ensures the data, analysis and results are transparent, reproducible and traceable to relevant persons. Traceability is also a guarantee that someone is accountable and can be contacted for further questions and clarifications.
 
-Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results, but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes in a process may multiply over time.
+Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results, but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes may multiply over time.
 
 Good practise reduces the risk for data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science, and in the longer perspective, safeguards the integrity of science itself. Inability to share data and documentation, or inconsistencies in published results has revealed high level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundereds of retracted papers. 
 
@@ -93,7 +93,7 @@ While fraudulent activity is indeed a problem, the more positive arguments for k
 - **I**nteroperable, and
 - **R**euseable
 
-In that context written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital notes. Making your lab notes and protocols digital, and even available online, promotes sharing them with anyone who need them for a publication, and submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provide them with persisitent identifiers (PIDs) and make them readily citeable. 
+In that context written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital, and even available online, promotes sharing them with anyone who need them for a publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provide them with persisitent identifiers (PIDs) and make them readily citeable. 
 
 There are several platforms for keeping digital lab notes, (see [here](https://zenodo.org/record/4723753) for a comperehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
 
@@ -106,7 +106,7 @@ Protocols and lab notes should be kept detailed, up to date, and accurate. They 
 - Detailed and structured information on why and how an experiment was done
 - Health and safety advice
 - Required hardware, software, or materials/instruments being used and when/where they were obtained
-- Sufficient information so that someone can understand what has been done without having to ask anyone else
+- Sufficient information so that someone can understand what has been done without having to ask others
 - Described mistakes, so they can be avoided in future applications of the protocol
 
 While the protocol is a confirmed recipe for making research data in an experiment, some information surrounding the experiment is good to keep separate records on, in a lab notebook. The notebook is your place for notes and comments on the protocol. In addition to being kept well organised and accurate, a lab notebook can include:
@@ -184,9 +184,9 @@ Even if memory serves you well, technology might not. Know your storage needs an
  > ### Exercise 5
 > Discuss in pairs the validity of the following statements on data backup:
 > 
-> A. I have my most important data backed up on my laptop. I have never experienced a hard drive failure, and my current laptop has a new state-of-the-art hard drive. Therefore, I don't need external backups.
+> A. I have my most important data backed up on my laptop. I have never experienced a hard drive failure, and my current laptop has a brand new state-of-the-art hard drive. Therefore, I don't need external backups.
 >
-> B. All my data is stored in a cloud service.
+> B. All my data is stored in a cloud service, or on a computation cluster (e.g. UPPMAX).
 >
 > C. My data is on a portable hard drive. There is a backup of the most important files on a shared USB stick in my research group.
 >

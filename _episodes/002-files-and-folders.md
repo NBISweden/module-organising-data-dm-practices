@@ -55,7 +55,7 @@ keypoints:
 {: .callout .toc}
 
 ![Mona_Lisa_naming][mona_lisa]
-<!-- https://www.instagram.com/p/CQZl6NlBdHz/ Copyright David Owens -->
+<!-- https://twitter.com/nathanwpyle/status/1108902487203958784 Copyright Nathan W Pyle -->
 ## Good practices for organising files and folders
 Depending on your background and experiences you could be thinking of different reasons to why it would be beneficial or useful to systematically organise your research and data files. The following is a selection of common reasons:
 
@@ -72,7 +72,7 @@ It is natural for some of your files to become unorganised from time to time, (e
 
 ![Unorganised files on desktop][files_messy_tidy]
 
-In this context we will be looking into practices for classifying and structuring files and folders to make them more useful. Your guiding principle should be that someone unfamiliar with your project should be able to look at your files and understand, in detail, what you did and why. This someone could be a researcher who wants to reproduce the results in your article, a new collaborator who needs to understand the details of your experiments, or more commonly, that someone could be your future self not remembering why you created a particular set of files. Poor organisation practices can lead to significantly slower research progress and you may end up having to spend significant time re-orienting yourself among files and contents you once knew.
+In this context we will be looking into practices for classifying and structuring files and folders to make them more useful. Your guiding principle should be that someone unfamiliar with your project would be able to look at your files and understand, in detail, what you did and why. This someone could be a researcher who wants to reproduce the results in your article, a new collaborator who needs to understand the details of your experiments, or more commonly, that someone could be your future self not remembering why you created a particular set of files. Poor organisation practices can lead to significantly slower research progress and you may end up having to spend significant time re-orienting yourself among files and contents you once knew.
 
 ## File and folder naming 
 
@@ -152,7 +152,7 @@ Two starting points for your file naming strategy are:
 
 ### Naming files and folders
 
-A File Naming Convention is a framework, or protocol if you like, for naming your files in a way that describes what the files contain and, importantly, how they relate to other files. 
+A File Naming Convention is a framework, or protocol if you like, for naming in a way that describes what the files and folders contain and, importantly, how they relate to each other. 
 
 <br>
 
@@ -172,7 +172,14 @@ A File Naming Convention is a framework, or protocol if you like, for naming you
 <br>
 
 ## Information vs. Name length
-Long file and folder names are always good because they contain more information, right? Wrong! Long names do hold more information, but also make them cumbersome. Certain software have hard coded limitations on path lengths, e.g. since Windows95 the Windows OS usually have problems with combined path lenghts exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folder or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
+Long file and folder names are always good because they contain more information, right? Wrong! Long names do hold more information, but also make them cumbersome.
+
+File: ``Something_about_something_else_that_is_really_important_to_my_research.txt``
+(74 characters)
+
+Full path of file (Windows): ``C:\home\user\documents\texts\Something_about_something_else_that_is_really_important_to_my_research.txt`` (104 characters)
+
+ Certain software have hard coded limitations on path lengths, e.g. since Windows95 the Windows OS usually have problems with combined path lenghts exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folder or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
 
 ### Three principles for (file) names:
 
@@ -184,7 +191,7 @@ Long file and folder names are always good because they contain more information
 
 * For dates use the YYYY-MM-DD standard and place at the end of the file UNLESS you need to organize your files chronologically
 
-* Include version number (if applicable), use leading zeroes (i.e.: v005 instead of v5).
+* Include version number (if applicable), use leading zeroes (i.e.: v05 instead of v5).
 make sure the end-letter file format extension is present at the end of the name (e.g. .doc, .xls, .mov, .tif)
 
 * Add a README.md (or PROJECT_STRUCTURE.md) file in your top directory which details your naming convention, directory structure and abbreviations
@@ -192,7 +199,7 @@ make sure the end-letter file format extension is present at the end of the name
 
 ### Avoid (Don'ts):
 
-* Using spaces (use _ or - instead)
+* Using spaces (use `_` or `-` instead)
 
 * Dots, commas and special characters (e.g. ~ ! @ # $ % ^ & * ( ) ` ; < > ? , [ ] { } ‘ “)
 
@@ -218,7 +225,7 @@ Examples:
 <br>
 
 ## How to organise files and folders
-Spend some time planning how you are going to organise your data at the beginning of a project. Consider how you and others will look for and access the files throughout the project’s life cycle and ensure that all people involved can commit to using the folder hierarchy, file naming conventions, and a strategy for onboarding new contributors. You can start small and expand as you develop your practices.
+Spend some time planning how you are going to organise your data at the beginning of a project. Consider how you and others will look for and access the files throughout the project’s life cycle and ensure that all people involved can commit to using the folder hierarchy, file naming conventions, and there is a strategy for onboarding new contributors. You can start small and expand as you develop your practices.
 
 ### Use folders to divide files into categories
 Put each project in its own folder named after that project. Ideally you want to keep the folder’s name under 32 characters long while at the same time including a combination of the project title, a unique identifier and the date. 
