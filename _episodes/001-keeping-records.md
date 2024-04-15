@@ -78,11 +78,11 @@ We will come back to the work at the Famous lab later. What we need to ask ourse
 
 ## Why do we need to keep good quality records?
 
-Good scientific practise depends on keeping and maintaining good records. Good records ensures the data, analysis and results are transparent, reproducible and traceable to relevant persons. Traceability is also a guarantee that someone is accountable and can be contacted for further questions and clarifications.
+Good scientific practice depends on keeping and maintaining good records. Good records ensure the data, analysis and results are transparent, reproducible and traceable to relevant persons. Traceability is also a guarantee that someone is accountable and can be contacted for further questions and clarifications.
 
 Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results, but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes may multiply over time.
 
-Good practise reduces the risk for data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science, and in the longer perspective, safeguards the integrity of science itself. Inability to share data and documentation, or inconsistencies in published results has revealed high level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundereds of retracted papers. 
+Good practice reduces the risk for data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science, and in the longer perspective, safeguards the integrity of science itself. Inability to share data and documentation, or inconsistencies in published results has revealed high level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundereds of retracted papers. 
 
 Not only is the fabrication of data and/or results a threat to the integrity of science itself. Once published, [fraudulent papers can keep on being cited years after being retracted](https://retractionwatch.com/the-retraction-watch-leaderboard/top-10-most-highly-cited-retracted-papers/). 
 
@@ -91,15 +91,15 @@ While fraudulent activity is indeed a problem, the more positive arguments for k
 - **F**indable,
 - **A**ccessible,
 - **I**nteroperable, and
-- **R**euseable
+- **R**eusable
 
-In that context written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital, and even available online, promotes sharing them with anyone who need them for a publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provide them with persisitent identifiers (PIDs) and make them readily citeable. 
+In that context written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital, and even available online, promotes sharing them with anyone who needs them for a publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and make them readily citeable. 
 
-There are several platforms for keeping digital lab notes, (see [here](https://zenodo.org/record/4723753) for a comperehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
+There are several platforms for keeping digital lab notes, (see [here](https://zenodo.org/record/4723753) for a comprehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
 
 ## Principles for good records
 
-Protocols and lab notes should be kept detailed, up to date, and accurate. They should be possible to access and be easily understood by both yourself and others regardless of time. Keeping records in digital format ensures easy back up and increased shareability. Content of records can include, but should not be limited to:
+Protocols and lab notes should be kept detailed, up-to-date, and accurate. They should be possible to access and be easily understood by both yourself and others regardless of time. Keeping records in digital format ensures easy back up and increased shareability. Content of records can include, but should not be limited to:
 
 - Your name, affiliation and contact information
 - Who the originator of the protocol is (if not you)
@@ -109,7 +109,7 @@ Protocols and lab notes should be kept detailed, up to date, and accurate. They 
 - Sufficient information so that someone can understand what has been done without having to ask others
 - Described mistakes, so they can be avoided in future applications of the protocol
 
-While the protocol is a confirmed recipe for making research data in an experiment, some information surrounding the experiment is good to keep separate records on, in a lab notebook. The notebook is your place for notes and comments on the protocol. In addition to being kept well organised and accurate, a lab notebook can include:
+While the protocol is a confirmed recipe for making research data in an experiment, some information surrounding the experiment is good to keep separate records on, in a lab notebook. The notebook is your place for notes and comments on the protocol. In addition to being kept well organised and accurate, a lab notebook can include the following:
 
 - Relevant details on what you did in the lab, when, and how
 - Your name and affiliation
@@ -164,9 +164,9 @@ But why use Markdown, why not make a plain text file (.txt)?
 
 * Markdown is highly compatible with e.g. GitHub.
 
-* Allows including explanatory comments in the text without having to visualise them. 
+* Allows explanatory comments to be included in the text without having to be visualised. 
 
-* Easily editable, versatile but not requiring particular skills.
+* Easily editable and versatile but not requiring particular skills.
 
 > ### Exercise 4
 > Think of an example where you would have benefited from having access to a README-file when working with data. Describe to your neighbor what you would have wanted such a file to contain. 
@@ -177,7 +177,7 @@ But why use Markdown, why not make a plain text file (.txt)?
 Even if memory serves you well, technology might not. Know your storage needs and plan solutions accordingly. Factors playing a role are, for example, data sensitivity, ease of access, file size and overall data volume. You can also ask yourself where, how and by whom your data will be produced, accessed, transformed, and transferred throughout and beyond the project.
 
  - Nearly all data, metadata and project information necessary to understand your analysis and results require some sort of backup strategy.
- - Try to keep backup in three separate locations, on at least two different kind of media (server, portable hard drive, cloud). Consider off-site backups.
+ - Try to keep backup in three separate locations, on at least two different kinds of media (server, portable hard drive, cloud). Consider off-site backups.
  - Never back up your data on portable drives only (SSD or ATA), and particularly not on USB sticks!
  - Robust backups need to be automated.
 
