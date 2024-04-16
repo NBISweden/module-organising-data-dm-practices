@@ -36,11 +36,11 @@ The road to success is open!
 
 On your first day of work Famous lets you know that you will continue, and build on, the work left behind by a previous PhD, Wang Fang (王芳), who left the Famous lab six months ago to pursue a career elsewhere (former co-workers claim she is in China, or the USA. Or maybe the UK. Or Germany. Nobody knows for sure). Before leaving, Wang sent Famous a photo of her lab notes documenting the data you will work with.
 
-She also left behind a USB-stick containing all known files and folders in a zip-file.
+She also left behind a USB stick containing all known files and folders in a zip file.
 
 ![Lab notes by Wang][notes]
 
-Puzzled by the note you ask Famous about additional information. The reply is that all researchers in the Famous lab work independently and are responsible for their own data and lab notes. If the information is not in the notes, the publication, or the zipped folder, it does not exist.
+Puzzled by the note you ask Famous for additional information. The reply is that all researchers in the Famous lab work independently and are responsible for their own data and lab notes. If the information is not in the notes, the publication, or the zipped folder, it does not exist.
 
 > ### Exercise 1
 > Can you list at least five major issues with the lab documentation in the image above?
@@ -76,13 +76,13 @@ Puzzled by the note you ask Famous about additional information. The reply is th
 
 We will come back to the work at the Famous lab later. What we need to ask ourselves now is...
 
-## Why do we need to keep good quality records?
+## Why do we need to keep good-quality records?
 
 Good scientific practice depends on keeping and maintaining good records. Good records ensure the data, analysis and results are transparent, reproducible and traceable to relevant persons. Traceability is also a guarantee that someone is accountable and can be contacted for further questions and clarifications.
 
 Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results, but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes may multiply over time.
 
-Good practice reduces the risk for data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science, and in the longer perspective, safeguards the integrity of science itself. Inability to share data and documentation, or inconsistencies in published results has revealed high level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundereds of retracted papers. 
+Good practice reduces the risk for data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science, and in the longer perspective, safeguards the integrity of science itself. Inability to share data and documentation, or inconsistencies in published results has revealed high-level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
 
 Not only is the fabrication of data and/or results a threat to the integrity of science itself. Once published, [fraudulent papers can keep on being cited years after being retracted](https://retractionwatch.com/the-retraction-watch-leaderboard/top-10-most-highly-cited-retracted-papers/). 
 
@@ -93,7 +93,7 @@ While fraudulent activity is indeed a problem, the more positive arguments for k
 - **I**nteroperable, and
 - **R**eusable
 
-In that context written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital, and even available online, promotes sharing them with anyone who needs them for a publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and make them readily citeable. 
+In that context written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital, and even available online, promotes sharing them with anyone who needs them for a publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and makes them readily citeable. 
 
 There are several platforms for keeping digital lab notes, (see [here](https://zenodo.org/record/4723753) for a comprehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
 
@@ -109,7 +109,7 @@ Protocols and lab notes should be kept detailed, up-to-date, and accurate. They 
 - Sufficient information so that someone can understand what has been done without having to ask others
 - Described mistakes, so they can be avoided in future applications of the protocol
 
-While the protocol is a confirmed recipe for making research data in an experiment, some information surrounding the experiment is good to keep separate records on, in a lab notebook. The notebook is your place for notes and comments on the protocol. In addition to being kept well organised and accurate, a lab notebook can include the following:
+While the protocol is a confirmed recipe for making research data in an experiment, some information surrounding the experiment is good to keep separate records on, in a lab notebook. The notebook is your place for notes and comments on the protocol. In addition to being kept well-organised and accurate, a lab notebook can include the following:
 
 - Relevant details on what you did in the lab, when, and how
 - Your name and affiliation
@@ -156,7 +156,7 @@ The purpose of adding README-files is to explicitly document everything you (and
 
 ## Using Markdown for documentation
 
-Markdown was developed as a lightweight easy-to-read and easy-to-write web text format emphasizing readability, (for example, the web pages for this course is written in Markdown). By creating your README-files using Markdown (.md) you guarantee that the files only include plain text with powerful yet simple formatting syntax, which can be combined with e.g. HTML tags.
+Markdown was developed as a lightweight easy-to-read and easy-to-write web text format emphasizing readability, (for example, the web pages for this course are written in Markdown). By creating your README-files using Markdown (.md) you guarantee that the files only include plain text with powerful yet simple formatting syntax, which can be combined with e.g. HTML tags.
 
 But why use Markdown, why not make a plain text file (.txt)?
 
