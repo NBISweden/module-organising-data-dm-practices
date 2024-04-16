@@ -57,13 +57,13 @@ keypoints:
 ![Mona_Lisa_naming][mona_lisa]
 <!-- https://twitter.com/nathanwpyle/status/1108902487203958784 Copyright Nathan W Pyle -->
 ## Good practices for organising files and folders
-Depending on your background and experiences you could be thinking of different reasons to why it would be beneficial or useful to systematically organise your research and data files. The following is a selection of common reasons:
+Depending on your background and experiences you could be thinking of different reasons why it would be beneficial or useful to systematically organise your research and data files. The following is a selection of common reasons:
 
 * Easier to locate a file
 * Find similar files together
 * Moving files becomes much easier
 * Easy to identify which files you want to back up
-* Keep organised in the long-run
+* Keep organised in the long run
 * Increases productivity
 * Helps you to keep and maintain a record of the project
 * Projects can easily be understood by others (including your future self)
@@ -84,23 +84,23 @@ An example:
 
 Based on the name, the file could contain information about:
 
-* `LD` - Long day sampling, of the
+* `LD` - Long-day sampling, of the
 * `phyA` - Phytochrome A genotype, in a 
 * `off` - Medium without sucrose, at
 * `t04` - Time point 4,
 * `2020-08-12` - Sampled on Aug 12th, 2020, with
 * `norm` - Normalised data
 
-However, this is not obvious from the text and letters alone. Some sort of explanation is usually required, which could be added to a README-file stored in proximity to the data files.
+However, this is not obvious from the text and letters alone. Some sort of explanation is usually required, which could be added to a README file stored in proximity to the data files.
 
 > ### Exercise 6 - Naming and Sorting
-> The following example contain files from an imaginary project, similar to the above example. To facilitate the exercise, the file name convention states that:
+> The following example contains files from an imaginary project, similar to the above example. To facilitate the exercise, the file name convention states that:
 > - *phyA/phyB* are genotypes
 > - *sXX* is the sample number
 > - *LD/SD* are light conditions (Long Day, Short Day)
 > - *on/off* are different growth media (on sucrose, off sucrose)
 > - *date format* is the sample date
-> - *tXX* is the sample timepoint 
+> - *tXX* is the sample time point 
 > - *raw*, *norm* indicates raw or normalised data
 >
 ---
@@ -133,9 +133,9 @@ ld_phyA_ons_t04_2020-08-12.norm.xlsx
 > - What are the effects if we, as in the above example, mix naming conventions?
 >> ### Solutions
 >>> * Using dates as leading information in file names makes finding data quickly harder as the more interesting information may be samples or timepoints (unless date is crucial to data). 
->>> * Wihtout leading zeros, sorting will make 10 and 11 appear before 2.
->>> * Upper and lower cases may sort differently 
->>> * Comparing files is easier if the file name lenghts are uniform.  
+>>> * Without leading zeros, sorting will make 10 and 11 appear before 2.
+>>> * Upper and lower cases may be sorted differently 
+>>> * Comparing files is easier if the file name lengths are uniform.  
 >>> * Mixed naming conventions can make it difficult to locate particular files, and/or sort a large number of files. 
 >> {: .solution}
 {: .discussion}
@@ -160,7 +160,7 @@ A File Naming Convention is a framework, or protocol if you like, for naming in 
 > What are examples of potential benefits of agreeing on a File Naming Convention for a project?
 >
 >> ### Potential benefits of a File Naming Convention
->> - Easier to process - Team members will not have to over think the file naming process
+>> - Easier to process - Team members will not have to overthink the file naming process
 >> - Easier to facilitate access, retrieval and storage of files
 >> - Easier to browse through files, saving time and effort
 >> - Harder to lose!
@@ -179,11 +179,11 @@ File: ``Something_about_something_else_that_is_really_important_to_my_research.t
 
 Full path of file (Windows): ``C:\home\user\documents\texts\Something_about_something_else_that_is_really_important_to_my_research.txt`` (104 characters)
 
- Certain software have hard coded limitations on path lengths, e.g. since Windows95 the Windows OS usually have problems with combined path lenghts exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folder or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
+ Certain software has hard-coded limitations on path lengths, e.g. since Windows95 the Windows OS usually have problems with combined path lengths exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folders or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
 
 ### Three principles for (file) names:
 
-1. Machine readable – Avoid spaces, deliberate punctuation, no accented characters, consistent letter casing
+1. Machine-readable – Avoid spaces, deliberate punctuation, no accented characters, consistent letter casing
 1. Human readable - A name describes the content of the file
 1. Plays well with default ordering – put something numeric first, use the ISO 8601 standard for dates, left pad other numbers with zeros
 
@@ -203,7 +203,7 @@ make sure the end-letter file format extension is present at the end of the name
 
 * Dots, commas and special characters (e.g. ~ ! @ # $ % ^ & * ( ) ` ; < > ? , [ ] { } ‘ “)
 
-* Using language specific characters (e.g óężé), unfortunately they still cause problems with most software or between operating systems (OS)
+* Using language-specific characters (e.g óężé), unfortunately they still cause problems with most software or between operating systems (OS)
 
 * Long names
 
@@ -230,7 +230,7 @@ Spend some time planning how you are going to organise your data at the beginnin
 ### Use folders to divide files into categories
 Put each project in its own folder named after that project. Ideally you want to keep the folder’s name under 32 characters long while at the same time including a combination of the project title, a unique identifier and the date. 
 
-Consider the best hierarchy for the files in the project and decide whether a deep or shallow hierarchy is preferable. If you have several independent data collections, it is advisable to create a separate data folder for each collection. But you can use any meaningful characteristic or file attribute as a basis for organising your files, which of them will be most helpful varies widely across domains and specific projects. 
+Consider the best hierarchy for the files in the project and decide whether a deep or shallow hierarchy is preferable. If you have several independent data collections, it is advisable to create a separate data folder for each collection. However, you can use any meaningful characteristic or file attribute as a basis for organising your files, which of them will be most helpful varies widely across domains and specific projects. 
 <br>
 <br>
 ![data][slide_files]
