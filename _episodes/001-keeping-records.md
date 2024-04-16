@@ -53,10 +53,10 @@ Puzzled by the note you ask Famous for additional information. The reply is that
 >> - Notes follow no clear timeline 
 >> - Notes mixed with scribbles 
 >> - Unknown if errors in data and/or file names are/were corrected or not
->> - Unknown how notes relates to data
->> - Changes to files are not referenced to zip-file
+>> - Unknown how notes relate to data
+>> - Changes to files are not referenced in zip file
 >> - Notes indicate more information exists (email to supervisor) 
->> - Notes raises questions on data quality
+>> - Notes raise questions about data quality
 >> - Lab notes are mixed with personal notes 
 >> - Unknown what analysis pipeline was used 
 >> - Etc...
@@ -124,7 +124,7 @@ While the protocol is a confirmed recipe for making research data in an experime
 >
 > Read the following statements and decide which ones are true (T) or false (F)
 >
-> * Analogue and digital records makes information equally findable.
+> * Analogues and digital records make information equally findable.
 > * New information in digital records can be easily shared with other users.
 > * Analogue records can be kept safe from any physical accidents.
 > * All researchers in a shared lab should have access to the same platform for keeping records and taking notes.
@@ -132,7 +132,7 @@ While the protocol is a confirmed recipe for making research data in an experime
 >
 >> ## Solution  
 >>  
->> * Analogue and digital records makes information equally findable. (F) 
+>> * Analogues and digital records make information equally findable. (F) 
 >> * New information in digital records can be easily shared with other users (T)
 >> * Analogue records can be kept safe from any physical accidents (F)
 >> * All researchers in a shared lab should have access to the same platform for keeping records and taking notes (T)
@@ -152,7 +152,7 @@ Such files can be added at many levels in the file hierarchy:
 - Folder level, aiming at explaining the contents, naming, file history, and organisation of a folder structure, and/or
 - Together with e.g. data, explaining file naming convention and/or file contents.
 
-The purpose of adding README-files is to explicitly document everything you (and others) need in order to understand the files and folders in the future.
+The purpose of adding README files is to explicitly document everything you (and others) need in order to understand the files and folders in the future.
 
 ## Using Markdown for documentation
 
@@ -197,11 +197,11 @@ Even if memory serves you well, technology might not. Know your storage needs an
 >> ### Comments
 >> A. Unsafe and not recommended. All hard drives can be subject to failure. In case of failure, all data will be lost.
 >>
->> B. Cloud services can be sufficient as backup, but are not fail safe. It can be sufficient in combinaiton with a secondary backup on e.g. a shared server. For certain types of data (e.g. sensitive information), a cloud service may be outright inappropriate. 
+>> B. Cloud services can be sufficient as backup, but are not fail safe. It can be sufficient in combination with a secondary backup on e.g. a shared server. For certain types of data (e.g. sensitive information), a cloud service may be outright inappropriate. 
 >> 
 >> C. Not a good solution. Both portable hard drives as well as USB sticks are prone to failure.
 >> 
->> D. A good solution in general. Data is stored independently in two separate systems. Centrally administerd services are usually organised in such a way that partial failures does not affect the users.
+>> D. A good solution in general. Data is stored independently in two separate systems. Centrally administered services are usually organised in such a way that partial failures do not affect the users.
 >> 
 >> E. Worst possible alternative. A disaster waiting to happen.
 > {: .solution}
