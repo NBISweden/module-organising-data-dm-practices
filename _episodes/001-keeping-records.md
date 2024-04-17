@@ -124,7 +124,7 @@ While the protocol is a confirmed recipe for making research data in an experime
 >
 > Read the following statements and decide which ones are true (T) or false (F)
 >
-> * Analogues and digital records make information equally findable.
+> * Analogue and digital records make information equally findable.
 > * New information in digital records can be easily shared with other users.
 > * Analogue records can be kept safe from any physical accidents.
 > * All researchers in a shared lab should have access to the same platform for keeping records and taking notes.
@@ -132,7 +132,7 @@ While the protocol is a confirmed recipe for making research data in an experime
 >
 >> ## Solution  
 >>  
->> * Analogues and digital records make information equally findable. (F) 
+>> * Analogue and digital records make information equally findable. (F) 
 >> * New information in digital records can be easily shared with other users (T)
 >> * Analogue records can be kept safe from any physical accidents (F)
 >> * All researchers in a shared lab should have access to the same platform for keeping records and taking notes (T)

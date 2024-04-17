@@ -179,7 +179,7 @@ File: ``Something_about_something_else_that_is_really_important_to_my_research.t
 
 Full path of file (Windows): ``C:\home\user\documents\texts\Something_about_something_else_that_is_really_important_to_my_research.txt`` (104 characters)
 
- Certain software has hard-coded limitations on path lengths, e.g. since Windows95 the Windows OS usually have problems with combined path lengths exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folders or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
+ Certain software has hard-coded limitations on path lengths, e.g. since Windows95 the Windows OS usually have problems with combined path lengths exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folder or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
 
 ### Three principles for (file) names:
 

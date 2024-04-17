@@ -166,7 +166,7 @@ From White et al., 2013, [Nine simple ways to make it easier to (re)use your dat
 
 **Example**: You doubt the data quality of a cell and want to comment on it.
 
-**Solution**: Add comments in separate cells, or in separate tabs referencing the cells in question. 
+**Solution**: Add comments in separate cells, or in a separate tab referencing the cells in question. 
 
 <br>
 
