@@ -52,7 +52,7 @@ An important thing to consider is to adapt to using metadata standards early in 
 
 ### Keeping track of your analyses
 
-When working with spreadsheets during data clean up or analyses, it is very easy to end up with a spreadsheet that looks different from what you started with. In order to be able to reproduce your analyses or figure out what you did when your team or supervisor asks for a different analysis, you **must:**
+When working with spreadsheets during data clean-up or analyses, it is very easy to end up with a spreadsheet that looks different from what you started with. In order to be able to reproduce your analyses or figure out what you did when your team or supervisor asks for a different analysis, you **must:**
 
 - **...create a new file or tab with your cleaned or analyzed data.**
 <br>
@@ -77,7 +77,7 @@ The cardinal rules of using spreadsheet programs for data:
 2. Put each **observation in its own row**.
 3. **Don't combine multiple pieces of information in one cell**. Sometimes it just seems like one thing, but think if that is the only way you want to be able to use or sort that data.
 4. **Leave the original (raw) data raw** - don't mess with it!
-5. Export the cleaned data to a **text based format** like CSV. This ensures that anyone can use the data (remember the *I* in *FAIR*?), and is the format required by most data repositories.
+5. Export the cleaned data to a **text-based format** like CSV. This ensures that anyone can use the data (remember the *I* in *FAIR*?), and is the format required by most data repositories.
 
 To illustrate, we will use participant data from a workshop. Different people have entered data in to a spreadsheet to keep track of things like date, number of attendees, and who
 delivered the workshop.
@@ -122,7 +122,7 @@ Try to avoid it for two reasons:
 * You are more likely to accidentally add inconsistencies to your data.
 * You add an extra step for yourself before an analysis because you need to combine the data into a single data table. 
 
-Your data sheet might end up being very extensive over the course of recording data, making it harder to enter data and maintaining an overview. For spreadsheets with many rows, use a Freeze Pane or Fixed Header function (do NOT repeat header rows!).
+Your datasheet might end up being very extensive over the course of recording data, making it harder to enter data and maintain an overview. For spreadsheets with many rows, use a Freeze Pane or Fixed Header function (do NOT repeat header rows!).
 
 [Documentation on how to freeze column headers in Microsoft Excel](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
 
@@ -136,19 +136,19 @@ A spreadsheet cell missing data can be replaced with a zero (0), right? Zero par
 
 Wrong!
 
-To a computer, a zero is data. You measured or counted it, and it was zero. A blank cell means no measurement at all, and the computer will interpret it as a null value. Leaving zero data blank is not good in a written format, but NEVER okay when you move your data into a digital format.
+To a computer, a zero is data. You measured or counted it, and it was zero. A blank cell means no measurement at all, and the computer will interpret it as a null value. Leaving zero data blank is not good in a written format, but it is NEVER okay when you move your data into a digital format.
 
 <br>
 
 ### Bad null values (missing data) {#null}
 
-How do you make explicit something that do not exist (a null value)? 
+How do you make explicit something that does not exist (a null value)? 
 
 **Example**: using -999 or other numerical values (or zero).
 
 **Solution**: To many statistical programs a numeric value can never be a null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
 
-From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution:
+From White et al., 2013, [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution:
 
 ![White et al.][3_white_table_1]
 
@@ -158,32 +158,32 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 **Example**: Colours! (The more the merrier). Separating data by blank rows. Merging cells to make text viewable. 
 
-**Solution**: Simple. If you cannot add information as data in a row, move it to documentation/README. If you cannot see all text in a cell, make cell wider. Merged cells can really mess up machine readbility of data!
+**Solution**: Simple. If you cannot add information as data in a row, move it to documentation/README. If you cannot see all text in a cell, make cell wider. Merged cells can really mess up the machine readability of data!
 
 <br>
 
 ### Placing comments or units in cells {#units}
 
-**Example**: You doubt the data quality of a cell and want to make a comment about it.
+**Example**: You doubt the data quality of a cell and want to comment on it.
 
-**Solution**: Add comments in separate cells, or in separate tab referencing the cells in question. 
+**Solution**: Add comments in separate cells, or in a separate tab referencing the cells in question. 
 
 <br>
 
 ### More than one kind of information in a cell {#info}
 
 **Example**: 
-You want to add linked but static data to a cell in a spreadsheet. For example, an experiement was run on mice `mus` with phenotype wrinkled skin `wrinsk`, caused by presence `+` of gene variant `Prss21`. So I can add that data in a single column as `mus_wrinsk_Prss21+`, and code data as present/absent, right? No. 
+You want to add linked but static data to a cell in a spreadsheet. For example, an experiment was run on mice `mus` with phenotype wrinkled skin `wrinsk`, caused by presence `+` of gene variant `Prss21`. So I can add that data in a single column as `mus_wrinsk_Prss21+`, and code data as present/absent, right? No. 
 
 **Solution**: 
-Never include more than one piece of information in a cell! Design your data sheet to include a column for each type of data. The organism is one kind of data, the phenotype a separate kind, etc. Place each one in their own column, *even if it seems unnecessary*! 
+Never include more than one piece of information in a cell! Design your datasheet to include a column for each type of data. The organism is one kind of data, the phenotype a separate kind, etc. Place each one in its own column, *even if it seems unnecessary*! 
 
 <br>
 
 ### Field name problems {#field_name}
 If possible, decide on a pre-defined controlled vocabulary prior to collecting your data. Doing so will make later data publications much easier since your data is pre-adapted to the submission requirements.
 
-For field names do not to include spaces, numbers, or special characters of any kind. Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case (LikeThis.txt) to improve readability. Remember that abbreviations making sense today may not be so obvious tomorrow.
+For field names do not include spaces, numbers, or special characters of any kind. Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case (LikeThis.txt) to improve readability. Remember that abbreviations making sense today may not be so obvious tomorrow.
 
 **Examples:**  
 
@@ -203,7 +203,7 @@ For field names do not to include spaces, numbers, or special characters of any 
 
 **Example**: You treat Excel as a word processor when writing notes, even copying data directly from Word or other applications.
 
-**Solution**: When writing longer text in a cell, avoid using things like line breaks and em-dashes. Be careful when copying data/test in from applications such as Word. Formatting and fancy non-standard characters can cause issues when exported to other software, such as appearance of sudden lines breaks. Treat all text as simple unformatted text.
+**Solution**: When writing longer text in a cell, avoid using things like line breaks and em-dashes. Be careful when copying data/test in from applications such as Word. Formatting and fancy non-standard characters can cause issues when exported to other software, such as the appearance of sudden line breaks. Treat all text as simple unformatted text.
 
 <br>
 
@@ -219,7 +219,7 @@ For field names do not to include spaces, numbers, or special characters of any 
 
 **Example**: You enter a full date as the value in a column. 
 
-**Solution**: It may seem the most natural way to record dates is to write them as you say them. Spreadsheet programs have numerous “useful features” which allow them to “handle” dates, but it actually is not a good practice. Even if the spreadsheet application will display the dates in
+**Solution**: It may seem the most natural way to record dates is to write them as you say them. Spreadsheet programs have numerous “useful features” which allow them to “handle” dates, but it actually is not a good practice. Even if the spreadsheet application will display the dates in a
 seemingly correct way (to the human eye), how it actually handles
 and stores the dates may be problematic. 
 
@@ -227,7 +227,7 @@ and stores the dates may be problematic.
 
 Excel **stores dates as a number** - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as  the serial number 41822.
 
-If possible, stick to the international ISO standard date format - YYYY-MM-DD, especially if you are collaborating with colleagues used to other date formats. It will save you a lot of headache, we promise! 
+If possible, stick to the international ISO standard date format - YYYY-MM-DD, especially if you are collaborating with colleagues used to other date formats. It will save you a lot of headaches, we promise! 
 
 <br>
 
@@ -238,15 +238,15 @@ If possible, stick to the international ISO standard date format - YYYY-MM-DD, e
 >
 > 1. First [download the data](../data/training_attendance_start.xlsx)
 > 1. Open up the data in a spreadsheet program (i.e. Excel).
-> 1. You can see that there are two tabs. Various people have recorded training attendance statistics over 2016 and 2017 for two kind of training activities, and they have made notes and kept track of the data in their own way. Now you are being asked to evaluate the training programme, and you want to be able to run a few statistical analysis. You need to make the data more **machine readable**.
-> 1. Together with the person next to you, work on the data to make it **both human readable and machine readable**. Clean up the 2016 and 2017 tabs, and see if all data can be merged in an easier way.
-> 1. Think of a way to document what you have done, so that your future you understands the changes that was made. Where do you store that information?
+> 1. You can see that there are two tabs. Various people have recorded training attendance statistics over 2016 and 2017 for two kinds of training activities, and they have made notes and kept track of the data in their own way. Now you are being asked to evaluate the training programme, and you want to be able to run a few statistical analyses. You need to make the data more **machine-readable**.
+> 1. Together with the person next to you, work on the data to make it **both human-readable and machine-readable**. Clean up the 2016 and 2017 tabs, and see if all data can be merged in an easier way.
+> 1. Think of a way to document what you have done, so that your future you understand the changes that were made. Where do you store that information?
 >
 >> ### Hints and Solution
 >> 1. Can the data potentially be merged into a single tab?
 >> 1. The colours used to mark cells are not explained. Is it useful to retain such information? 
 >> 1. The diagrams are only visualisations of some of the data. They can be easily reproduced elsewhere and may mask other information. Can they be removed from the spreadsheet?
->> 1. It seems the attendee data is entered in a non-compatible way across the different tabs. Is there a risk of information loss, or can you merge data using a smallest common denominator approach?
+>> 1. It seems the attendee data is entered in a non-compatible way across the different tabs. Is there a risk of information loss, or can you merge data using the smallest common denominator approach?
 >> 1. Would you store documentation of changes within or outside of the spreadsheet? Why and how?
 >> 1. A suggestion on how the data can be cleaned and organised [can be downloaded here](../data/training_attendance_end.xlsx) 
 > {: .solution}
