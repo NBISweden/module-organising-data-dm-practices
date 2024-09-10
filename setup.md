@@ -10,7 +10,7 @@ title: Setup
 
 > ## Software
 >
-> For this lesson, you need to know how to extract conmpressed zip-directories. Please consult your IT department for instructions if you lack access to the software.
+> For this lesson, you need to know how to extract compressed zip-directories. Please consult your IT department for instructions if you lack access to the software.
 >
 {: .prereq}
 
