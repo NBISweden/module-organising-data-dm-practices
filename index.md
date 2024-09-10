@@ -17,5 +17,5 @@ An additional episode is available for a more in depth lesson on tabular data, m
 
 > ## Preparation
 >
-> See [Setup]({% link setup.md %}) for futher instructions.
+> See [Setup](setup.html) for further instructions.
 {: .prereq}
