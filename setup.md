@@ -10,11 +10,11 @@ title: Setup
 
 > ## Software
 >
-> For this lesson, you need to know how to extract conmpressed zip-directories. Please consult your IT department for instructions if you lack access to the software.
+> For this lesson, you need to know how to extract compressed zip-directories. Please consult your IT department for instructions if you lack access to the software.
 >
 {: .prereq}
 
 > ## Presentation
 >
-> Slides for this module are available [here](./module-organising-data-dm-practice-apr-2023.pdf)
+> Slides for this module are available [here](./files/module-organising-data-dm-practice-nov-2024.pdf)
 {: .prereq}
