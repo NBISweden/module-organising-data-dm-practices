@@ -231,7 +231,7 @@ If possible, stick to the international ISO standard date format - YYYY-MM-DD, e
 
 <br>
 
-> ### Exercise 9
+> ### Exercise 8
 >
 > We are going to take a messy version of some data and begin cleaning it up using the information, tips and tricks listed above.
 > (Remember to **create a new file** for the cleaned data, and **never modify the original (raw) data**.)
