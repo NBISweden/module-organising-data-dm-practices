@@ -244,7 +244,7 @@ Consider the following four different folder structures.
 The first two (**A** and **B**) are recommended for computing.
 The other two (**C** and **D**) are recommended for wet lab or biological projects.
 
-> ### Exercise 7
+> ### Exercise 
 > * Which one is the most similar one to your own project structure?
 > * When/why would you use **A** compared to **B**?
 > * When/why would you use **C** compared to **D**? 
