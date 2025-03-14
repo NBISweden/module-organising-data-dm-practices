@@ -141,37 +141,6 @@ While the protocol is a confirmed recipe for making research data in an experime
 > {: .solution}
 {: .challenge}
 
-## Reaching for FAIR using README-files
-
-README-files are good for a lot of things, perhaps most often encountered when installing software, and the mere presence of a README-file attracts attention when encountered. 
-
-Unless you are of the opinion that data speaks for itself, explanation of file content and folder structure might be required, and why not include it in a README and place it easily findable? 
-
-Such files can be added at many levels in the file hierarchy:
-
-- Folder level, aiming at explaining the contents, naming, file history, and organisation of a folder structure, and/or
-- Together with e.g. data, explaining file naming convention and/or file contents.
-
-The purpose of adding README files is to explicitly document everything you (and others) need in order to understand the files and folders in the future.
-
-## Using Markdown for documentation
-
-Markdown was developed as a lightweight easy-to-read and easy-to-write web text format emphasizing readability, (for example, the web pages for this course are written in Markdown). By creating your README-files using Markdown (.md) you guarantee that the files only include plain text with powerful yet simple formatting syntax, which can be combined with e.g. HTML tags.
-
-But why use Markdown, why not make a plain text file (.txt)?
-
-* The plain text file is limited to plain text. You lack any options to format the text or contents.
-
-* Markdown is highly compatible with e.g. GitHub.
-
-* Allows explanatory comments to be included in the text without having to be visualised. 
-
-* Easily editable and versatile but not requiring particular skills.
-
-> ### Exercise 4
-> Think of an example where you would have benefited from having access to a README-file when working with data. Describe to your neighbor what you would have wanted such a file to contain. 
-{: .discussion}
-
 ## Backing up your files and folders
 
 Even if memory serves you well, technology might not. Know your storage needs and plan solutions accordingly. Factors playing a role are, for example, data sensitivity, ease of access, file size and overall data volume. You can also ask yourself where, how and by whom your data will be produced, accessed, transformed, and transferred throughout and beyond the project.
@@ -181,7 +150,7 @@ Even if memory serves you well, technology might not. Know your storage needs an
  - Never back up your data on portable drives only (SSD or ATA), and particularly not on USB sticks!
  - Robust backups need to be automated.
 
- > ### Exercise 5
+ > ### Exercise 4
 > Discuss in pairs the validity of the following statements on data backup:
 > 
 > A. I have my most important data backed up on my laptop. I have never experienced a hard drive failure, and my current laptop has a brand new state-of-the-art hard drive. Therefore, I don't need external backups.
