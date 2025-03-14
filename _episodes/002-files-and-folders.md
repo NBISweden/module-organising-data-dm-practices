@@ -93,7 +93,7 @@ Based on the name, the file could contain information about:
 
 However, this is not obvious from the text and letters alone. Some sort of explanation is usually required, which could be added to a README file stored in proximity to the data files.
 
-> ### Exercise 6 - Naming and Sorting
+> ### Exercise 5 - Naming and Sorting
 > The following example contains files from an imaginary project, similar to the above example. To facilitate the exercise, the file name convention states that:
 > - *phyA/phyB* are genotypes
 > - *sXX* is the sample number
@@ -156,7 +156,7 @@ A File Naming Convention is a framework, or protocol if you like, for naming in 
 
 <br>
 
-> ### Exercise 7
+> ### Exercise 6
 > What are examples of potential benefits of agreeing on a File Naming Convention for a project?
 >
 >> ### Potential benefits of a File Naming Convention
@@ -244,7 +244,7 @@ Consider the following four different folder structures.
 The first two (**A** and **B**) are recommended for computing.
 The other two (**C** and **D**) are recommended for wet lab or biological projects.
 
-> ### Exercise 8
+> ### Exercise 7
 > * Which one is the most similar one to your own project structure?
 > * When/why would you use **A** compared to **B**?
 > * When/why would you use **C** compared to **D**? 
