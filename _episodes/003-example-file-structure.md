@@ -30,7 +30,7 @@ keypoints:
 
 ![File_system][File_system]
 
-> ## Exercise 8
+> ## Exercise 7
 > Starting with the zip file containing the inherited file system shown above, can you adapt the information from the previous episodes to bring order to the system, provide better file names, a clear folder structure, and add one or more README files?
 >
 >> ### Solution
