@@ -158,7 +158,7 @@ From White et al., 2013, [Nine simple ways to make it easier to (re)use your dat
 
 **Example**: Colours! (The more the merrier). Separating data by blank rows. Merging cells to make text viewable. 
 
-**Solution**: Simple. If you cannot add information as data in a row, move it to documentation/README. If you cannot see all the text in a cell, make the cell wider. Merged cells can really mess up the machine readability of data!
+**Solution**: Simple. If you cannot add information as data in a row, move it to documentation. If you cannot see all the text in a cell, make the cell wider. Merged cells can really mess up the machine readability of data!
 
 <br>
 
