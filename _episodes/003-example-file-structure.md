@@ -31,7 +31,7 @@ keypoints:
 ![File_system][File_system]
 
 > ## Exercise 7
-> Starting with the zip file containing the inherited file system shown above, can you adapt the information from the previous episodes to bring order to the system, provide better file names, a clear folder structure, and add one or more README files?
+> Starting with the zip file containing the inherited file system shown above, can you adapt the information from the previous episodes to bring order to the system, provide better file names and a clear folder structure, and add one or more  overview files or user manual files?
 >
 >> ### Solution
 >> There are many potential ways to improve the file system. [The downloadable solution](../data/Famous_project_in_order.zip) should not be seen as the only alternative but as one of many possible alternatives. 
