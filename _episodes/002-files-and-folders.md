@@ -265,7 +265,7 @@ The other two (**C** and **D**) are recommended for wet lab or biological projec
 > 1. What characters will you use to separate each piece of metadata in the file name?
 > 1. Will you need to track different versions of each file?
 > 1. Write down your naming convention pattern
-> 1. Document this convention in a README.md (or save this worksheet) and keep it with your files
+> 1. Document this convention in a file/document (or save this worksheet) and keep it with your files
 {: .callout}
 
 > ### Further reading
