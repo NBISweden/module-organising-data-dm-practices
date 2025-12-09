@@ -99,10 +99,12 @@ There are several platforms for keeping digital lab notes (see [here](https://ze
 
 > ### Note
 > Records, data, metadata, and documentation are closely related but not identical:
+> 
 > - **Data:** The actual measurements, observations, or files generated (e.g. images, sequences, tables).
 > - **Metadata:** Data about the data (e.g. sample ID, instrument, date, settings).
 > - **Documentation:** Text explaining how data were generated and processed.
 > - **Records:** The entire collection of data, metadata, notes, protocols, and decisions.
+>   
 >   Good record-keeping ensures that all four remain connected and interpretable over time.
 {: .callout}
 
