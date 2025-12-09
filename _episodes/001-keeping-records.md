@@ -152,6 +152,21 @@ While the protocol is a confirmed recipe for generating research data in an expe
 > {: .solution}
 {: .challenge}
 
+To better understand these statements in practice, it is useful to compare key characteristics of analogue and digital records side by side.
+
+### Analogue vs. Digital Records – A Practical Comparison
+
+| Aspect | Analogue | Digital |
+|--------|----------|---------|
+| Findability | Low–medium | High |
+| Shareability | Low | High |
+| Backup | Weak | Strong |
+| Long-term preservation | Vulnerable to physical damage | Vulnerable to format/software changes |
+| Legal admissibility | Often strong | Depends on integrity controls |
+
+Digital records reduce many risks but introduce new ones, such as file format obsolescence, software dependency, and access control.
+
+
 ## Backing up your files and folders
 
 Even if memory serves you well, technology might not. Know your storage needs and plan solutions accordingly. Factors that play a role include data sensitivity, ease of access, file size, and overall data volume. You can also ask yourself where, how and by whom your data will be produced, accessed, transformed, and transferred throughout and beyond the project.
