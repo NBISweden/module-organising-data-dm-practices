@@ -105,7 +105,7 @@ There are several platforms for keeping digital lab notes (see [here](https://ze
 > - **Documentation:** Text explaining how data were generated and processed.
 > - **Records:** The entire collection of data, metadata, notes, protocols, and decisions.
 >   
->   Good record-keeping ensures that all four remain connected and interpretable over time.
+> Good record-keeping ensures that all four remain connected and interpretable over time.
 {: .callout}
 
 ## Principles for good records
