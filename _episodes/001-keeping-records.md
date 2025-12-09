@@ -97,6 +97,15 @@ In that context, written lab notes on paper can still fulfil the FAIR principles
 
 There are several platforms for keeping digital lab notes (see [here](https://zenodo.org/record/4723753) for a comprehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
 
+> ### Note
+> Records, data, metadata, and documentation are closely related but not identical:
+> - **Data:** The actual measurements, observations, or files generated (e.g. images, sequences, tables).
+> - **Metadata:** Data about the data (e.g. sample ID, instrument, date, settings).
+> - **Documentation:** Text explaining how data were generated and processed.
+> - **Records:** The entire collection of data, metadata, notes, protocols, and decisions.
+>   Good record-keeping ensures that all four remain connected and interpretable over time.
+{: .callout}
+
 ## Principles for good records
 
 Protocols and lab notes should be kept detailed, up-to-date, and accurate. They should be accessible and easily understood by both you and others, regardless of the time. Keeping records in digital format ensures easy backup and increased shareability. Content of records can include, but should not be limited to:
