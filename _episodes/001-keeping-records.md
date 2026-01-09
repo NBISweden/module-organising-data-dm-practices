@@ -7,7 +7,7 @@ questions:
 - How do we keep our records FAIR? 
 
 objectives:
-- Identify the pros and cons with analogue vs. digital notes
+- Identify the pros and cons of analogue vs. digital notes
 - Adopt good practices for data analysis documentation
 
 keypoints:
@@ -82,7 +82,7 @@ Good scientific practice relies on maintaining accurate and thorough records. Go
 
 Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes may multiply over time.
 
-Good practice reduces the risk of data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science and, in the long term, safeguards the integrity of science itself. The inability to share data and documentation or inconsistencies in published results has revealed high-level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
+Good practice reduces the risk of data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science and, in the long term, safeguards the integrity of science itself. The inability to share data and documentation, as well as inconsistencies in published results, have revealed high-level fraud in the realm of science (e.g., the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or[Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
 
 Not only is the fabrication of data and/or results a threat to the integrity of science itself. Once published, [fraudulent papers can keep on being cited years after being retracted](https://retractionwatch.com/the-retraction-watch-leaderboard/top-10-most-highly-cited-retracted-papers/). 
 
@@ -102,7 +102,7 @@ There are several platforms for keeping digital lab notes (see [here](https://ze
 > 
 > - **Data:** The actual measurements, observations, or files generated (e.g. images, sequences, tables).
 > - **Metadata:** Data about the data (e.g. sample ID, instrument, date, settings).
-> - **Documentation:** Text explaining how data were generated and processed.
+> - **Documentation:** Text explaining how the data were generated and processed.
 > - **Records:** The entire collection of data, metadata, notes, protocols, and decisions.
 >   
 > Good record-keeping ensures that all four remain connected and interpretable over time.
@@ -190,9 +190,9 @@ Even if memory serves you well, technology might not. Know your storage needs an
 > E. We have no shared backup at all. All members of our research group are responsible for their own data.
 >  
 >> ### Comments
->> A. Unsafe and not recommended. All hard drives can be subject to failure. In case of failure, all data will be lost.
+>> A. Unsafe and not recommended. All hard drives are susceptible to failure. In case of failure, all data will be lost.
 >>
->> B. Cloud services can be sufficient as a backup but are not fail-safe. It can be sufficient in combination with a secondary backup on, e.g. a shared server. For certain types of data (e.g. sensitive information), a cloud service may be outright inappropriate. 
+>> B. Cloud services can be sufficient as a backup, but are not fail-safe. It can be sufficient in combination with a secondary backup, such as on a shared server. For certain types of data (e.g. sensitive information), a cloud service may be outright inappropriate. 
 >> 
 >> C. Not a good solution. Both portable hard drives as well as USB sticks are prone to failure.
 >> 
