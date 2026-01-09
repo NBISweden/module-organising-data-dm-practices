@@ -207,7 +207,7 @@ Make sure the end-letter file format extension is present at the end of the name
 
 * Long names
 
-* Repetition, e.g if directory name is Electron_Microscopy_Images, and file ELN_MI_IMG_20200101.img then ELN_MI_IMG is redundant
+* Repetition, e.g if the directory name is Electron_Microscopy_Images, and the file ELN_MI_IMG_20200101.img then ELN_MI_IMG is redundant (applicable if the file is not going to be accessed independently of the location)
 
 * Deep paths with long names (i.e. deeply nested folders with long names), as archiving or moving between OS may fail
 
