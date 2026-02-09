@@ -131,11 +131,12 @@ ld_phyA_ons_t04_2020-08-12.norm.xlsx
 > - Is there a difference between using upper and lower case letters?
 > - What is the difference between using two letters for *on* compared to three letters *ons*?
 > - What are the effects if we, as in the above example, mix naming conventions?
+>
 >> ### Solutions
 >> * Using dates as leading information in file names makes finding data quickly harder, as the more interesting information may be samples or time points (unless the date is crucial to the data). 
 >> * Without leading zeros, sorting will make 10 and 11 appear before 2.
 >> * Upper and lower cases may be sorted differently 
->> * Comparing files is easier if the file name lengths are uniform.  
+>> * Comparing files is easier if the file name lengths are uniform.
 >> * Mixed naming conventions can make it difficult to locate particular files and/or sort a large number of files. 
 > {: .solution}
 {: .discussion}
