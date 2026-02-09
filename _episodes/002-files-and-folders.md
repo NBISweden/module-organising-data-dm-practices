@@ -147,7 +147,7 @@ Two starting points for your file naming strategy are:
 - #### A file name is a principal identifier of a file
     Good file names contain useful clues to the content, status, and version of a file, uniquely identify a file, and help classify and sort files. File names that reflect the file content also facilitate searching and discovering files. In collaborative research, it is essential to keep track of changes and edits to files via the file name.
 - #### The file naming strategy should be consistent in time and among different people
-    In quantitative and qualitative research, file naming should be systematic and consistent across all files in the study. A group of cooperating researchers should follow the same file-naming strategy, and file names should be independent of the file's location on a computer.
+    In quantitative and qualitative research, file naming should be systematic and consistent across all files in the study. A group of cooperating researchers should follow the same file naming strategy, and file names should be independent of the file's location on a computer.
 
 
 ### Naming files and folders
@@ -230,7 +230,7 @@ Spend some time planning how you will organise your data at the beginning of a p
 ### Use folders to divide files into categories
 Place each project in its own folder, named after the project. Ideally, you want to keep the folder’s name under 32 characters long, while also including a combination of the project title, a unique identifier, and the date. 
 
-Consider the best hierarchy for the project files and decide whether a deep or shallow hierarchy is preferable. If you have several independent data collections, it is advisable to create a separate data folder for each collection. However, you can use any meaningful characteristic or file attribute as a basis for organising your files, and which one will be most helpful varies widely across domains and specific projects. 
+Consider the best hierarchy for the project files, and decide whether a deep or shallow hierarchy is preferable. If you have several independent data collections, it is advisable to create a separate data folder for each collection. However, you can use any meaningful characteristic or file attribute as a basis for organising your files, and which one will be most helpful varies widely across domains and specific projects. 
 <br>
 <br>
 ![data][slide_files]
