@@ -34,7 +34,7 @@ Congratulations researcher! You have been recruited to the lab of Professor Terr
  
 The road to success is open!
 
-On your first day of work, Terry informs you that you will continue and build on the work left behind by a previous PhD student, Emily Johnson, who left the lab six months ago to pursue a career elsewhere. Former coworkers say she could be working in the industry at another university or possibly abroad—nobody knows for sure. Before leaving, Emily sent Terry a photo of her lab notes, which document the data you will work with.
+On your first day of work, Terry informs you that you will continue and build on the work left behind by a previous PhD student, Emily Johnson, who left the lab six months ago to pursue a career elsewhere. Former coworkers say she could be working in the industry, at another university, or possibly abroad — nobody knows for sure. Before leaving, Emily sent Terry a photo of her lab notes, which document the data you will work with.
 
 She also left behind a USB stick containing all known files and folders in a zip file.
 
@@ -82,7 +82,7 @@ Good scientific practice relies on maintaining accurate and thorough records. Go
 
 Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes may multiply over time.
 
-Good practice reduces the risk of data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science and, in the long term, safeguards the integrity of science itself. The inability to share data and documentation, as well as inconsistencies in published results, have revealed high-level fraud in the realm of science (e.g., the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or[Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
+Good practice reduces the risk of data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science and, in the long term, safeguards the integrity of science itself. The inability to share data and documentation, as well as inconsistencies in published results, have revealed high-level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
 
 Not only is the fabrication of data and/or results a threat to the integrity of science itself. Once published, [fraudulent papers can keep on being cited years after being retracted](https://retractionwatch.com/the-retraction-watch-leaderboard/top-10-most-highly-cited-retracted-papers/). 
 
@@ -93,7 +93,7 @@ While fraudulent activity is indeed a problem, the more positive arguments for m
 - **I**nteroperable, and
 - **R**eusable
 
-In that context, written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital and even available online promotes sharing them with anyone who needs them for publication. Submitting them to a public repository (e.g., [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and makes them readily citable. 
+In that context, written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital and even available online promotes sharing them with anyone who needs them for publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and makes them readily citable. 
 
 There are several platforms for keeping digital lab notes (see [here](https://zenodo.org/record/4723753) for a comprehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
 
@@ -110,7 +110,7 @@ There are several platforms for keeping digital lab notes (see [here](https://ze
 
 ## Principles for good records
 
-Protocols and lab notes should be kept detailed, up-to-date, and accurate. They should be accessible and easily understood by both you and others, regardless of the time. Keeping records in digital format ensures easy backup and increased shareability. Content of records can include, but should not be limited to:
+Protocols and lab notes should be kept detailed, up-to-date, and accurate. They should be accessible and easily understood by both you and others, regardless of when. Keeping records in digital format ensures easy backup and increased shareability. Content of records can include, but should not be limited to:
 
 - Your name, affiliation and contact information
 - Who the originator of the protocol is (if not you)
