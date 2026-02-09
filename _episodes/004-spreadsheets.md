@@ -248,7 +248,7 @@ If possible, stick to the international ISO standard date format - YYYY-MM-DD, e
 >> 1. The diagrams are only visualisations of some of the data. They can be easily reproduced elsewhere and may mask other information. Can they be removed from the spreadsheet?
 >> 1. The attendee data is entered in a non-compatible way across the different tabs. Is there a risk of information loss, or can you merge data using the smallest common denominator approach?
 >> 1. Would you store documentation of changes within or outside of the spreadsheet? Why and how?
->> 1. A suggestion on how the data can be cleaned and organised [can be downloaded here](../data/training_attendance_end_.xlsx) 
+>> 1. A suggestion on how the data can be cleaned and organised [can be downloaded here](../data/training_attendance_end.xlsx) 
 > {: .solution}
 {: .challenge}
 
