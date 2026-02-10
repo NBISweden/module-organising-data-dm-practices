@@ -7,7 +7,7 @@ questions:
 - How do we keep our records FAIR? 
 
 objectives:
-- Identify the pros and cons with analogue vs. digital notes
+- Identify the pros and cons of analogue vs. digital notes
 - Adopt good practices for data analysis documentation
 
 keypoints:
@@ -21,7 +21,7 @@ keypoints:
 [notes]: ../fig/keeping-records/analogue_notes.jpeg
 
 > ## About this episode 
-> The data you collect, organise, prepare, and analyse to answer your research questions and the documentation describing it are the lifeblood of your research. Put bluntly: Without data, there is no research. And while data is important, without proper documentation, your data might be useless for others as well as yourself in the future.
+> The data you collect, organise, prepare, and analyse to answer your research questions and the documentation describing it are the lifeblood of your research. Put bluntly: Without data, there is no research. And while data is important, without proper documentation, your data may be useless for both yourself and others in the future.
 >
 > 1. TOC
 > {:toc}
@@ -30,17 +30,17 @@ keypoints:
 
 
 ## Starting up Your Research
-Congratulations researcher! You have been recruited to the lab of Terribly (aka Terry) Famous, an authority in the field with many benchmark publications in the CV. It is truly an honor to work here, and you outcompeted several applicants to earn the position. It will be a major addition to your CV and will likely increase your chances of receiving funding for your own projects in the future.
+Congratulations researcher! You have been recruited to the lab of Professor Terry Williams (often called “Terry”), a well-established authority in the field with many benchmark publications to his name. It is truly an honour to work here, and you outcompeted several applicants to earn the position. It will be a major addition to your CV and will likely increase your chances of receiving funding for your own projects in the future.
  
 The road to success is open!
 
-On your first day of work, Famous lets you know that you will continue, and build on, the work left behind by a previous PhD, Wang Fang (王芳), who left the Famous lab six months ago to pursue a career elsewhere (former co-workers claim she is in China, or the USA. Or maybe the UK. Or Germany. Nobody knows for sure). Before leaving, Wang sent Famous a photo of her lab notes documenting the data you will work with.
+On your first day of work, Terry informs you that you will continue and build on the work left behind by a previous PhD student, Emily Johnson, who left the lab six months ago to pursue a career elsewhere. Former coworkers say she could be working in the industry, at another university, or possibly abroad — nobody knows for sure. Before leaving, Emily sent Terry a photo of her lab notes, which document the data you will work with.
 
 She also left behind a USB stick containing all known files and folders in a zip file.
 
 ![Lab notes by Wang][notes]
 
-Puzzled by the note, you ask Famous for additional information. The reply is that all researchers in the Famous lab work independently and are responsible for their own data and lab notes. If the information is not in the notes, the publication, or the zipped folder, it does not exist.
+Puzzled by the note, you ask Terry for additional information. The reply is that all researchers in the lab work independently and are responsible for their own data and lab notes. If the information is not in the notes, the publication, or the zipped folder, it does not exist.
 
 > ### Exercise 1
 > Can you list at least five major issues with the lab documentation in the image above?
@@ -64,7 +64,7 @@ Puzzled by the note, you ask Famous for additional information. The reply is tha
 {: .discussion}
 
 > ### Exercise 2
-> Give one or more example(s) of what kind of general questions the note and Famous' answer raise about the work done in the lab. 
+> Give one or more example(s) of what kind of general questions the note and Terry's answer raise about the work done in the lab. 
 >> ### Problem areas
 >> - Is this typical of all the work done in the lab?
 >> - What results from the lab can be trusted? 
@@ -74,32 +74,43 @@ Puzzled by the note, you ask Famous for additional information. The reply is tha
 > {: .solution}
 {: .discussion}
 
-We will come back to work at the Famous lab later. What we need to ask ourselves now is...
+We will come back to work at the lab later. What we need to ask ourselves now is...
 
 ## Why do we need to keep good-quality records?
 
-Good scientific practice depends on keeping and maintaining good records. Good records ensure the data, analysis, and results are transparent, reproducible and traceable to relevant persons. Traceability is also a guarantee that someone is accountable and can be contacted for further questions and clarifications.
+Good scientific practice relies on maintaining accurate and thorough records. Good records ensure that the data, analysis, and results are transparent, reproducible, and traceable to relevant individuals. Traceability also ensures that someone is accountable and can be contacted for further questions and clarifications.
 
 Keeping good records will prevent future issues, where revelations about the past data handling and metadata quality can question not only the original results but also the subsequent research building on such data; [(A recent example)](https://www.nature.com/articles/s41597-022-01602-0). As science is cumulative, uncorrected mistakes may multiply over time.
 
-Good practice reduces the risk of data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science and, in the long term, safeguards the integrity of science itself. The inability to share data and documentation or inconsistencies in published results has revealed high-level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
+Good practice reduces the risk of data mistakes, data manipulation and research fraud. Making data and documentation open and transparent promotes the values of open science and, in the long term, safeguards the integrity of science itself. The inability to share data and documentation, as well as inconsistencies in published results, have revealed high-level fraud in the realm of science (e.g. the infamous cases of [Dr. Yoshitaka Fuji](https://web.archive.org/web/20140812021223/http://www.anesth.or.jp/english/pdf/news20121019.pdf), or [Joachim Boldt](https://retractionwatch.com/category/joachim-boldt-retractions/)), who both fabricated data and results, resulting in hundreds of retracted papers. 
 
 Not only is the fabrication of data and/or results a threat to the integrity of science itself. Once published, [fraudulent papers can keep on being cited years after being retracted](https://retractionwatch.com/the-retraction-watch-leaderboard/top-10-most-highly-cited-retracted-papers/). 
 
-While fraudulent activity is indeed a problem, the more positive arguments for keeping good quality records can be described by the **FAIR** principles. Good records promote data and documentation being 
+While fraudulent activity is indeed a problem, the more positive arguments for maintaining good-quality records can be described by the **FAIR** principles. Good records promote data and documentation being 
 
 - **F**indable,
 - **A**ccessible,
 - **I**nteroperable, and
 - **R**eusable
 
-In that context, written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital and even available online promotes sharing them with anyone who needs them for publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/), or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and makes them readily citeable. 
+In that context, written lab notes on paper can still fulfil the FAIR principles, but to a lesser degree than digital ones. Making your lab notes and protocols digital and even available online promotes sharing them with anyone who needs them for publication. Submitting them to a public repository (e.g. [Zenodo](https://zenodo.org/) or [FigShare](https://figshare.com/)) provides them with persistent identifiers (PIDs) and makes them readily citable. 
 
 There are several platforms for keeping digital lab notes (see [here](https://zenodo.org/record/4723753) for a comprehensive list and comparison of different platforms), documenting your workflow and making the data and documentation easier to access and share among people and across time. 
 
+> ### Note
+> Records, data, metadata, and documentation are closely related but not identical:
+> 
+> - **Data:** The actual measurements, observations, or files generated (e.g. images, sequences, tables).
+> - **Metadata:** Data about the data (e.g. sample ID, instrument, date, settings).
+> - **Documentation:** Text explaining how the data were generated and processed.
+> - **Records:** The entire collection of data, metadata, notes, protocols, and decisions.
+>   
+> Good record-keeping ensures that all four remain connected and interpretable over time.
+{: .callout}
+
 ## Principles for good records
 
-Protocols and lab notes should be kept detailed, up-to-date, and accurate. They should be able to access and be easily understood by both yourself and others regardless of time. Keeping records in digital format ensures easy backup and increased shareability. Content of records can include, but should not be limited to:
+Protocols and lab notes should be kept detailed, up-to-date, and accurate. They should be accessible and easily understood by both you and others, regardless of when. Keeping records in digital format ensures easy backup and increased shareability. Content of records can include, but should not be limited to:
 
 - Your name, affiliation and contact information
 - Who the originator of the protocol is (if not you)
@@ -109,11 +120,11 @@ Protocols and lab notes should be kept detailed, up-to-date, and accurate. They 
 - Sufficient information so that someone can understand what has been done without having to ask others
 - Described mistakes so they can be avoided in future applications of the protocol
 
-While the protocol is a confirmed recipe for making research data in an experiment, some information surrounding the experiment is good to keep separate records on, in a lab notebook. The notebook is your place for notes and comments on the protocol. In addition to being kept well-organised and accurate, a lab notebook can include the following:
+While the protocol is a confirmed recipe for generating research data in an experiment, some information surrounding the experiment is also worth keeping separate records of, in a lab notebook. The notebook is your designated space for recording notes and comments on the protocol. In addition to being kept well-organised and accurate, a lab notebook can include the following:
 
 - Relevant details on what you did in the lab, when, and how
 - Your name and affiliation
-- What project the experiment is part of
+- What project is the experiment part of
 - Information on lot and batch numbers for used consumables (e.g. reagents and chemicals)
 - Information on what metadata is collected for each data type collected
 - What happened and what did not happen
@@ -141,9 +152,24 @@ While the protocol is a confirmed recipe for making research data in an experime
 > {: .solution}
 {: .challenge}
 
+To better understand these statements in practice, it is useful to compare key characteristics of analogue and digital records side by side.
+
+### Analogue vs. Digital Records – A Practical Comparison
+
+| Aspect | Analogue | Digital |
+|--------|----------|---------|
+| Findability | Low–medium | High |
+| Shareability | Low | High |
+| Backup | Weak | Strong |
+| Long-term preservation | Vulnerable to physical damage | Vulnerable to format/software changes |
+| Legal admissibility | Often strong | Depends on integrity controls |
+
+Digital records reduce many risks but introduce new ones, such as file format obsolescence, software dependency, and access control.
+
+
 ## Backing up your files and folders
 
-Even if memory serves you well, technology might not. Know your storage needs and plan solutions accordingly. Factors that play a role are, for example, data sensitivity, ease of access, file size, and overall data volume. You can also ask yourself where, how and by whom your data will be produced, accessed, transformed, and transferred throughout and beyond the project.
+Even if memory serves you well, technology might not. Know your storage needs and plan solutions accordingly. Factors that play a role include data sensitivity, ease of access, file size, and overall data volume. You can also ask yourself where, how and by whom your data will be produced, accessed, transformed, and transferred throughout and beyond the project.
 
  - Nearly all data, metadata and project information necessary to understand your analysis and results require some sort of backup strategy.
  - Try to keep backup in three separate locations, on at least two different kinds of media (server, portable hard drive, cloud). Consider off-site backups.
@@ -164,9 +190,9 @@ Even if memory serves you well, technology might not. Know your storage needs an
 > E. We have no shared backup at all. All members of our research group are responsible for their own data.
 >  
 >> ### Comments
->> A. Unsafe and not recommended. All hard drives can be subject to failure. In case of failure, all data will be lost.
+>> A. Unsafe and not recommended. All hard drives are susceptible to failure. In case of failure, all data will be lost.
 >>
->> B. Cloud services can be sufficient as a backup but are not fail-safe. It can be sufficient in combination with a secondary backup on, e.g. a shared server. For certain types of data (e.g. sensitive information), a cloud service may be outright inappropriate. 
+>> B. Cloud services can be sufficient as a backup, but are not fail-safe. It can be sufficient in combination with a secondary backup, such as on a shared server. For certain types of data (e.g. sensitive information), a cloud service may be outright inappropriate. 
 >> 
 >> C. Not a good solution. Both portable hard drives as well as USB sticks are prone to failure.
 >> 

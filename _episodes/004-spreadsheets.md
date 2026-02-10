@@ -26,7 +26,7 @@ keypoints:
 [5_excel_dates_1]: ../fig/105-tabular-data/5_excel_dates_1.jpg
 
 > ## About this episode 
-> We tend to organize data in spreadsheets as we humans want to work with the data, but computers and humans see it in different ways. In order to use tools that make computation more efficient, we need to structure our data the way that computers need it. This episode will cover:
+> We tend to organize data in spreadsheets as we humans want to work with the data, but computers and humans see it in different ways. To utilise tools that make computation more efficient, we need to structure our data in a way that computers can easily process. This episode will cover:
 >
 > 1. TOC
 > {:toc}
@@ -41,7 +41,7 @@ Setting up well-formatted tables early in the research process is extremely impo
 Data organization can make it easier or harder to work with data. Your future self might not agree with your present self on the best input format! 
 
 ### Early metadata
-An important thing to consider is to adapt to using metadata standards early in the research phase. Adopting a metadata standard for your collected data and sticking to it will make later phases much easier. A dataset pre-adapted to publication will source far less headache than a non-adapted dataset. 
+An important consideration is adapting to using metadata standards early in the research phase. Adopting a metadata standard for your collected data and sticking to it will make later phases much easier. A dataset pre-adapted to publication will cause far fewer headaches than a non-adapted dataset. 
 
 > ### Note
 > The best layouts/formats (as well as software and
@@ -86,7 +86,7 @@ If they were to keep track of the data like this:
 
 ![multiple-info example][multiple-info]
 
-the problem is that attendees are split into types (post-graduate researcher (PGR), post-doctoral research associate (PDRA), and others) but retained in the same cells. If we want to look at attendance by type, it would be hard to set up the data. If we split attendee categories into different columns instead, it would be much easier.
+The problem is that attendees are categorised into types (post-graduate researcher (PGR), post-doctoral research associate (PDRA), and others), but are retained in the same cells. If we want to look at attendance by type, it would be challenging to set up the data. If we split the attendee categories into different columns, it would be much easier.
 
 ### Columns for variables and rows for observations
 
@@ -106,7 +106,7 @@ Many things can happen when we enter data into a spreadsheet. Without claiming a
 A common strategy is creating multiple data tables within one
 spreadsheet tab. **This confuses the computer; avoid it at all costs!**. Multiple tables within one spreadsheet create
 false associations between cells for the computer, which sees each
-row as an observation. You are also potentially using the same field name in multiple places, which will make it harder to clean your data up into a usable form. 
+row as an observation. You are also potentially using the same field name in multiple places, which will make it more difficult to clean your data into a usable form. 
 
 The example below depicts the problem:
 
@@ -116,13 +116,13 @@ The example below depicts the problem:
 
 ### Avoiding multiple tabs {#tabs}
 
-Many tabs are good tabs, right? Well, yes and no. Creating extra tabs makes the computer miss data connections that are there (which must be re-introduced using spreadsheet application-specific functions or scripting). Say, for instance, you make a separate tab for each year.
+Many tabs are good tabs, right? Well, yes and no. Creating extra tabs can cause the computer to miss data connections that are already present (which must be reintroduced using spreadsheet application-specific functions or scripting). For instance, say you create a separate tab for each year.
 
 Try to avoid it for two reasons:
 * You are more likely to accidentally add inconsistencies to your data.
 * You add an extra step for yourself before an analysis because you need to combine the data into a single data table. 
 
-Your datasheet might end up being very extensive over the course of recording data, making it harder to enter data and maintain an overview. For spreadsheets with many rows, use a Freeze Pane or Fixed Header function (do NOT repeat header rows!).
+Your datasheet may become very extensive over the course of recording data, making it harder to enter data and maintain an overview. For spreadsheets with many rows, use a Freeze Pane or Fixed Header function (do NOT repeat header rows!).
 
 [Documentation on how to freeze column headers in Microsoft Excel](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
 
@@ -136,7 +136,7 @@ A spreadsheet cell missing data can be replaced with a zero (0), right? Zero par
 
 Wrong!
 
-To a computer, a zero is data. You measured or counted it, and it was zero. A blank cell means no measurement at all, and the computer will interpret it as a null value. Leaving zero data blank is not good in a written format, but it is NEVER okay when you move your data into a digital format.
+To a computer, a zero is data. You measured or counted it, and it was zero. A blank cell means no measurement at all, and the computer will interpret it as a null value. Leaving zero data blank is not ideal in a written format, but it is NEVER acceptable when you move your data into a digital format.
 
 <br>
 
@@ -146,7 +146,7 @@ How do you make explicit something that does not exist (a null value)?
 
 **Example**: using -999 or other numerical values (or zero).
 
-**Solution**: To many statistical programs, a numeric value can never be null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
+**Solution**: To many statistical programs, a numeric value can never be null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (in most applications) and NA (for R) are suitable choices.
 
 From White et al., 2013, [Nine simple ways to make it easier to (re)use your data.](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608) Ideas in Ecology and Evolution:
 
@@ -158,7 +158,7 @@ From White et al., 2013, [Nine simple ways to make it easier to (re)use your dat
 
 **Example**: Colours! (The more the merrier). Separating data by blank rows. Merging cells to make text viewable. 
 
-**Solution**: Simple. If you cannot add information as data in a row, move it to documentation. If you cannot see all the text in a cell, make the cell wider. Merged cells can really mess up the machine readability of data!
+**Solution**: Simple. If you cannot add information as data in a row, move it to documentation. If you cannot see all the text in a cell, make the cell wider. Merged cells can significantly compromise the machine-readability of data!
 
 <br>
 
@@ -173,7 +173,7 @@ From White et al., 2013, [Nine simple ways to make it easier to (re)use your dat
 ### More than one kind of information in a cell {#info}
 
 **Example**: 
-You want to add linked but static data to a cell in a spreadsheet. For example, an experiment was run on mice `mus` with phenotype wrinkled skin `wrinsk`, caused by presence `+` of gene variant `Prss21`. So I can add that data in a single column as `mus_wrinsk_Prss21+`, and code data as present/absent, right? No. 
+You want to add linked but static data to a cell in a spreadsheet. For example, an experiment was run on mice `mus` with phenotype wrinkled skin `wrinsk`, caused by the presence `+` of gene variant `Prss21`. So I can add that data in a single column as `mus_wrinsk_Prss21+`, and code data as present/absent, right? No. 
 
 **Solution**: 
 Never include more than one piece of information in a cell! Design your datasheet to include a column for each type of data. The organism is one kind of data, the phenotype a separate kind, etc. Place each one in its own column, *even if it seems unnecessary*! 
@@ -183,7 +183,7 @@ Never include more than one piece of information in a cell! Design your datashee
 ### Field name problems {#field_name}
 If possible, decide on a pre-defined controlled vocabulary prior to collecting your data. Doing so will make later data publications much easier since your data is pre-adapted to the submission requirements.
 
-For field names do not include spaces, numbers, or special characters of any kind. Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case (LikeThis.txt) to improve readability. Remember that abbreviations making sense today may not be so obvious tomorrow.
+For field names, do not include spaces, numbers, or special characters of any kind. Underscores (`_`) are a good alternative to spaces, and consider writing names in camel-case (LikeThis.txt) to improve readability. Remember that abbreviations that make sense today may not be so obvious tomorrow.
 
 **Examples:**  
 
@@ -219,7 +219,7 @@ For field names do not include spaces, numbers, or special characters of any kin
 
 **Example**: You enter a full date as the value in a column. 
 
-**Solution**: It may seem the most natural way to record dates is to write them as you say them. Spreadsheet programs have numerous “useful features” that allow them to “handle” dates, but they are not a good practice. Even if the spreadsheet application will display the dates in a
+**Solution**: It may seem the most natural way to record dates is to write them as you say them. Spreadsheet programs have numerous “useful features” that allow them to “handle” dates, but they are not a good practice. Even if the spreadsheet application displays the dates in a
 seemingly correct way (to the human eye), how it actually handles
 and stores the dates that may be problematic. 
 
@@ -227,7 +227,7 @@ and stores the dates that may be problematic.
 
 Excel **stores dates as a number** - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014, as  the serial number 41822.
 
-If possible, stick to the international ISO standard date format - YYYY-MM-DD, especially if you are collaborating with colleagues used to other date formats. It will save you a lot of headaches, we promise! 
+If possible, stick to the international ISO standard date format - YYYY-MM-DD, especially if you are collaborating with colleagues who are used to other date formats. It will save you a lot of headaches, we promise! 
 
 <br>
 
@@ -238,9 +238,9 @@ If possible, stick to the international ISO standard date format - YYYY-MM-DD, e
 >
 > 1. First [download the data](../data/training_attendance_start.xlsx)
 > 1. Open up the data in a spreadsheet program (i.e. Excel).
-> 1. You can see that there are two tabs. Various people have recorded training attendance statistics over 2016 and 2017 for two kinds of training activities, and they have made notes and kept track of the data in their own way. Now you are being asked to evaluate the training programme, and you want to be able to run a few statistical analyses. You need to make the data more **machine-readable**.
+> 1. You can see that there are two tabs. Various individuals have recorded training attendance statistics for two types of training activities in 2016 and 2017, and they have taken notes and tracked the data in their own manner. Now you are being asked to evaluate the training programme, and you want to be able to run a few statistical analyses. You need to make the data more **machine-readable**.
 > 1. Together with the person next to you, work on the data to make it **both human-readable and machine-readable**. Clean up the 2016 and 2017 tabs, and see if all data can be merged in an easier way.
-> 1. Think of a way to document what you have done, so that your future you understand the changes that were made. Where do you store that information?
+> 1. Think of a way to document what you have done, so that in the future you understand the changes that were made. Where do you store that information?
 >
 >> ### Hints and Solution
 >> 1. Can the data potentially be merged into a single tab?

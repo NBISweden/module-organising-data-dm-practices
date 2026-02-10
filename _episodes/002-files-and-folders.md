@@ -13,7 +13,7 @@ keypoints:
 - Organisation is a key aspect of data management and will help keep the project on track by saving time and minimising risk 
 - Think hard at the beginning of your project about how you are going to organise your data as it grows
 - Structure project folders hierarchically to divide data into categories that can easily be understood and described
-- Consider what makes sense for your project and research team and how people new to the project might look for data files and documentation
+- Consider what makes sense for your project and research team, and how people new to the project might look for data files and documentation
 
 ---
 
@@ -72,7 +72,7 @@ It is natural for some of your files to become unorganised from time to time (e.
 
 ![Unorganised files on desktop][files_messy_tidy]
 
-In this context, we will look into practices for classifying and structuring files and folders to make them more useful. Your guiding principle should be that someone unfamiliar with your project could look at your files and understand, in detail, what you did and why. This someone could be a researcher who wants to reproduce the results in your article, a new collaborator who needs to understand the details of your experiments, or, more commonly, that someone could be your future self not remembering why you created a particular set of files. Poor organisational practices can lead to significantly slower research progress, and you may have to spend significant time re-orienting yourself to the files and contents you once knew about.
+In this context, we will examine practices for classifying and structuring files and folders to make them more effective. Your guiding principle should be that someone unfamiliar with your project could look at your files and understand, in detail, what you did and why. This someone could be a researcher who wants to reproduce the results in your article, a new collaborator who needs to understand the details of your experiments, or, more commonly, that someone could be your future self, not remembering why you created a particular set of files. Poor organisational practices can lead to significantly slower research progress, and you may have to spend significant time re-orienting yourself to the files and contents you once knew about.
 
 ## File and folder naming 
 
@@ -131,13 +131,14 @@ ld_phyA_ons_t04_2020-08-12.norm.xlsx
 > - Is there a difference between using upper and lower case letters?
 > - What is the difference between using two letters for *on* compared to three letters *ons*?
 > - What are the effects if we, as in the above example, mix naming conventions?
+>
 >> ### Solutions
->>> * Using dates as leading information in file names makes finding data quickly harder as the more interesting information may be samples or time points (unless the date is crucial to data). 
->>> * Without leading zeros, sorting will make 10 and 11 appear before 2.
->>> * Upper and lower cases may be sorted differently 
->>> * Comparing files is easier if the file name lengths are uniform.  
->>> * Mixed naming conventions can make it difficult to locate particular files and/or sort a large number of files. 
->> {: .solution}
+>> * Using dates as leading information in file names makes finding data quickly harder, as the more interesting information may be samples or time points (unless the date is crucial to the data). 
+>> * Without leading zeros, sorting will make 10 and 11 appear before 2.
+>> * Upper and lower cases may be sorted differently 
+>> * Comparing files is easier if the file name lengths are uniform.
+>> * Mixed naming conventions can make it difficult to locate particular files and/or sort a large number of files. 
+> {: .solution}
 {: .discussion}
 
 
@@ -146,7 +147,7 @@ Two starting points for your file naming strategy are:
 
 - #### A file name is a principal identifier of a file
     Good file names contain useful clues to the content, status, and version of a file, uniquely identify a file, and help classify and sort files. File names that reflect the file content also facilitate searching and discovering files. In collaborative research, it is essential to keep track of changes and edits to files via the file name.
-- #### File naming strategy should be consistent in time and among different people
+- #### The file naming strategy should be consistent in time and among different people
     In quantitative and qualitative research, file naming should be systematic and consistent across all files in the study. A group of cooperating researchers should follow the same file naming strategy, and file names should be independent of the file's location on a computer.
 
 
@@ -172,29 +173,29 @@ A File Naming Convention is a framework, or protocol if you like, for naming in 
 <br>
 
 ## Information vs. Name length
-Long file and folder names are always good because they contain more information. Wrong! Long names do hold more information but also make them cumbersome.
+Long file and folder names are always good because they contain more information. Wrong! Long names do hold more information, but also make them cumbersome.
 
 File: ``Something_about_something_else_that_is_really_important_to_my_research.txt``
 (74 characters)
 
 Full path of file (Windows): ``C:\home\user\documents\texts\Something_about_something_else_that_is_really_important_to_my_research.txt`` (104 characters)
 
- Certain software has hard-coded limitations on path lengths, e.g. since Windows 95, the Windows OS usually have problems with combined path lengths exceeding 260 characters. And even in case your OS supports longer paths, some software may not. Truncated folder or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with folder naming and file system depth. 
+ Certain software has hard-coded limitations on path lengths. For example, since Windows 95, the Windows OS has usually had problems with combined path lengths exceeding 260 characters. And even in cases where your OS supports longer paths, some software may not. Truncated folder or file names may seriously impact findability and sortability, or even cause errors. As a problem, this also increases with the complexity of folder naming and file system depth. 
 
 ### Three principles for (file) names:
 
 1. Machine-readable – Avoid spaces, deliberate punctuation, no accented characters, consistent letter casing
-1. Human readable - A name describes the content of the file
+1. Human-readable - A name describes the content of the file
 1. Plays well with default ordering – put something numeric first, use the ISO 8601 standard for dates, left pad other numbers with zeros
 
 ### Do's:
 
-* For dates use the YYYY-MM-DD standard and place it at the end of the file UNLESS you need to organize your files chronologically
+* For dates, use the YYYY-MM-DD standard and place it at the end of the file UNLESS you need to organize your files chronologically
 
 * Include version number (if applicable); use leading zeroes (i.e., v05 instead of v5).
-make sure the end-letter file format extension is present at the end of the name (e.g. .doc, .xls, .mov, .tif)
+Make sure the end-letter file format extension is present at the end of the name (e.g. .doc, .xls, .mov, .tif)
 
-* Add a file (or PROJECT_STRUCTURE.md) file in your top directory which details your naming convention, directory structure and abbreviations
+* Add a file (or PROJECT_STRUCTURE.md) in your top directory which details your naming convention, directory structure and abbreviations
 
 
 ### Avoid (Don'ts):
@@ -207,7 +208,7 @@ make sure the end-letter file format extension is present at the end of the name
 
 * Long names
 
-* Repetition, e.g if directory name is Electron_Microscopy_Images, and file ELN_MI_IMG_20200101.img then ELN_MI_IMG is redundant
+* Repetition, e.g if the directory name is Electron_Microscopy_Images, and the file ELN_MI_IMG_20200101.img then ELN_MI_IMG is redundant (applicable if the file is not going to be accessed independently of the location)
 
 * Deep paths with long names (i.e. deeply nested folders with long names), as archiving or moving between OS may fail
 
@@ -225,12 +226,12 @@ Examples:
 <br>
 
 ## How to organise files and folders
-Spend some time planning how you are going to organise your data at the beginning of a project. Consider how you and others will look for and access the files throughout the project’s life cycle. Ensure that all people involved can commit to using the folder hierarchy and file naming conventions and that there is a strategy for onboarding new contributors. You can start small and expand as you develop your practices.
+Spend some time planning how you will organise your data at the beginning of a project. Consider how you and others will look for and access the files throughout the project’s life cycle. Ensure that all people involved can commit to using the folder hierarchy and file naming conventions, and that there is a strategy for onboarding new contributors. You can start small and expand as you develop your practices.
 
 ### Use folders to divide files into categories
-Put each project in its own folder named after that project. Ideally you want to keep the folder’s name under 32 characters long while at the same time including a combination of the project title, a unique identifier and the date. 
+Place each project in its own folder, named after the project. Ideally, you want to keep the folder’s name under 32 characters long, while also including a combination of the project title, a unique identifier, and the date. 
 
-Consider the best hierarchy for the files in the project and decide whether a deep or shallow hierarchy is preferable. If you have several independent data collections, it is advisable to create a separate data folder for each collection. However, you can use any meaningful characteristic or file attribute as a basis for organising your files, which of them will be most helpful varies widely across domains and specific projects. 
+Consider the best hierarchy for the project files, and decide whether a deep or shallow hierarchy is preferable. If you have several independent data collections, it is advisable to create a separate data folder for each collection. However, you can use any meaningful characteristic or file attribute as a basis for organising your files, and which one will be most helpful varies widely across domains and specific projects. 
 <br>
 <br>
 ![data][slide_files]
