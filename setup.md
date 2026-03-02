@@ -16,5 +16,5 @@ title: Setup
 
 > ## Presentation
 >
-> Slides for this module are available [here](./files/module-organising-data-dm-practices.pdf). If you want to have speaker notes, then they are available [here](./files/module-organising-data-dm-practices_with-speaker-notes.pdf)
+> Slides are available for download, either [without speaker notes](./files/module-organising-data-dm-practices.pdf) or [including speaker notes](./files/module-organising-data-dm-practices_with-speaker-notes.pdf)
 {: .prereq}
