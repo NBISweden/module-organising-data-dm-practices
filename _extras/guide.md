@@ -2,6 +2,6 @@
 title: "Instructor notes"
 ---
 > ## Presentation slides
-> Download the [presentation slides](../module-organising-data-dm-practice.pdf)
+> Download the [presentation slides](files/module-organising-data-dm-practices.pdf)
 >
 {: .prereq}
